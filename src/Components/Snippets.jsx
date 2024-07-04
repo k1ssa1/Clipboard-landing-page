@@ -2,8 +2,8 @@ const Snippets = () => {
     return ( 
         <div className="grid grid-cols-1 my-24">
             <div className="flex flex-col items-center justify-center text-center">
-                <h4 className="text-2xl font-bold text-gray-900">Keep track of your snippets</h4>
-                <p className="w-1/3 mt-5 text-sm text-gray-400">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything</p>
+                <h4 className="text-2xl font-bold text-gray-900 max-sm:w-1/2">Keep track of your snippets</h4>
+                <p className="w-1/3 mt-5 text-sm text-gray-400 max-sm:w-1/2">Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything</p>
             </div>
             <div className="mt-24 bg-snipets bg-no-repeat bg-left bg-contain p-16">
                 <ul className="float-right mr-56 text-justify w-80">
