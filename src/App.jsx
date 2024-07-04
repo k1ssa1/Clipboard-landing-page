@@ -1,5 +1,6 @@
 import Header from "./Components/Header"
 import Snippets from "./Components/Snippets"
+import Clipboard from "./Components/ClipboardAccess"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header/>
       <Snippets/>
+      <Clipboard/>
     </>
   )
 }
