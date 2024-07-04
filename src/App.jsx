@@ -3,6 +3,7 @@ import Snippets from "./Components/Snippets"
 import ClipboardAccess from "./Components/ClipboardAccess"
 import Tools from "./Components/Tools"
 import Sponsors from "./Components/Sponsors"
+import Cfa from "./Components/Cfa"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <ClipboardAccess/>
       <Tools/>
       <Sponsors/>
+      <Cfa/>
     </>
   )
 }
