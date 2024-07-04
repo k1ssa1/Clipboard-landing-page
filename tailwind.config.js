@@ -10,7 +10,9 @@ export default {
         'header': "url('/src/assets/bg-header-desktop.png')",
         'snipets': "url('/src/assets/image-computer.png')",
       },
-      fontFamily: {
+      screens: {
+        'max-sm': {'max': '639px'},
+        'max-lg': {'max': '1023px'},
       },
     },
   },
