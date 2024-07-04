@@ -4,6 +4,7 @@ import ClipboardAccess from "./Components/ClipboardAccess"
 import Tools from "./Components/Tools"
 import Sponsors from "./Components/Sponsors"
 import Cfa from "./Components/Cfa"
+import Footer from "./Components/Footer"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Tools/>
       <Sponsors/>
       <Cfa/>
+      <Footer/>
     </>
   )
 }
