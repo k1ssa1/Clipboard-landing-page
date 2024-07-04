@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header': "url('/src/assets/bg-header-desktop.png')",
+        'snipets': "url('/src/assets/image-computer.png')",
+      },
+      fontFamily: {
+      },
+    },
   },
   plugins: [],
 }

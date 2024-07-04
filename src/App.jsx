@@ -1,10 +1,12 @@
+import Header from "./Components/Header"
+import Snippets from "./Components/Snippets"
+
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Header/>
+      <Snippets/>
     </>
   )
 }
